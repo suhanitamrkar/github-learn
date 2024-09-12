@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Logo = () => {
   return (
@@ -7,27 +8,36 @@ const Logo = () => {
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-2 gap-10 sm:gap-y-16 sm:grid-cols-3 xl:grid-cols-6">
             <div>
-                <img className="object-contain w-auto mx-auto h-14" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-1.png" alt="" />
+            <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-1.png"}
+                alt='' width={100} height={10}/>
+                
             </div>
 
             <div>
-                <img className="object-contain w-auto mx-auto h-14" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-2.png" alt="" />
+                <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-2.png"}
+                alt='' width={20} height={20} className="object-contain w-auto mx-auto h-14" />
+               
             </div>
 
             <div>
-                <img className="object-contain w-auto mx-auto h-14" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png" alt="" />
+                <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
+                alt='' width={20} height={20}/>
+              
             </div>
 
             <div>
-                <img className="object-contain w-auto mx-auto h-14" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-4.png" alt="" />
+            <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
+                alt='' width={20} height={20}/>
             </div>
 
             <div>
-                <img className="object-contain w-auto mx-auto h-14" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-5.png" alt="" />
+                <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
+                alt='' width={20} height={20}/>
             </div>
 
             <div>
-                <img className="object-contain w-auto mx-auto h-14" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-6.png" alt="" />
+            <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
+                alt='' width={20} height={20}/>
             </div>
         </div>
     </div>

@@ -18,7 +18,7 @@ export default function App() {
     ); // <-- scope for selector text (optional)
 
     return (
-        <div ref={container} className="app">
+        <div  className="app">
             <div className="box bg-slate-800 h-20 w-20 m-10 ">Hello</div>
         </div>
     );

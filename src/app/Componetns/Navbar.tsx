@@ -6,6 +6,7 @@ import gsap from 'gsap';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Link from 'next/link';
 import { ThemeButton } from './ThemeButton';
+import Image from 'next/image'
 
 function Navbar() {
  const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,13 @@ function Navbar() {
    <div className="flex bg-white text-sm font-semibold items-center justify-between flex-wrap p-6">
      <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
       <Link href="/" >
-     <img src="https://netchex.com/wp-content/themes/netchex-tailwdind/images/logo.svg" alt="logo"/>
+      <Image
+      src="https://netchex.com/wp-content/themes/netchex-tailwdind/images/logo.svg"
+      alt="Landscape picture"
+      width={800}
+      height={500}
+    />
+    
      </Link>
      </div>
      <div className="block lg:hidden">

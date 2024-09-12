@@ -18,9 +18,9 @@ export default function Home() {
   return (
    
    <>
-   <Suspense fallback={<p>Loading...</p>}>
+   
    <Banner/>
-      </Suspense>
+
    
    <Benefits/>
    <Experience/>

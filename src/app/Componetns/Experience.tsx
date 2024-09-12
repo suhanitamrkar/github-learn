@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Experience = () => {
   return (
@@ -16,8 +17,9 @@ const Experience = () => {
              
             </div>
             <div className=' sm:w-full md:w-1/2 md:px-[3rem]  '> 
-                
-            <img decoding="async" src="https://b1948610.smushcdn.com/1948610/wp-content/uploads/2024/02/Group-12.png?lossy=1&amp;strip=1&amp;webp=1" alt="Group-12" className="w-full"/>
+                <Image src={"https://b1948610.smushcdn.com/1948610/wp-content/uploads/2024/02/Group-12.png?lossy=1&amp;strip=1&amp;webp=1"} alt='' width={100} height={100}/>
+
+            
             </div>
         </div>
     </div>
