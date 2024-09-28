@@ -14,7 +14,7 @@ const BlogItem = () => {
         <div className="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
             <div>
                 <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                    <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-1.jpg"} alt='' width={10} height={20} />
+                    <img src={"https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-1.jpg"} alt='' width={10} height={20} />
                   
                 </a>
                 <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> Technology </span>
@@ -28,7 +28,7 @@ const BlogItem = () => {
 
             <div>
                 <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-1.jpg"} alt='' width={10} height={20} />
+                <img src={"https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-1.jpg"} alt='' width={10} height={20} />
                    
                 </a>
                 <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-sky-500 bg-sky-100 mt-9"> Marketing </span>
@@ -42,7 +42,7 @@ const BlogItem = () => {
 
             <div>
                 <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-1.jpg"} alt='' width={10} height={20} />
+                <img src={"https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-1.jpg"} alt='' width={10} height={20} />
                 </a>
                 <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-sky-500 bg-sky-100 mt-9"> Marketing </span>
                 <p className="mt-6 text-xl font-semibold">

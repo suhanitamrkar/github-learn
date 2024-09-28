@@ -31,7 +31,7 @@ const Banner = () => {
       </div>
 
       <div className="sm:w-full md:w-1/2    ">
-      <Image src={"https://b1948610.smushcdn.com/1948610/wp-content/uploads/2024/07/NetchexHero2.webp?lossy=1&amp;strip=1&amp;webp=1"} alt='' width={10} height={20} />
+      <Image src={""} alt='' width={10} height={20} />
       
       </div>
     </div>

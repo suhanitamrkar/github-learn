@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-12">
             <div>
-                <Image src={"https://netchex.com/wp-content/themes/netchex-tailwdind/images/logo.svg"}
+                <Image src={""}
                 alt='' width={100} height={10}/>
            
 

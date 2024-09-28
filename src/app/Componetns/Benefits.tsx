@@ -9,7 +9,7 @@ const Benefits = () => {
         Netchex is a seamless, cloud-based HR &amp;  payroll solution with integrated single sign-on purposefully <br/> built to streamline core HR operations. </p>
         <div className=' sm:flex sm:flex-col-1   md:flex h-[600px]  justify-between md:mt-[4rem] '>
             <div className='p-2'>
-              <Image src={"https://b1948610.smushcdn.com/1948610/wp-content/uploads/2024/02/Group-11.png?lossy=1&amp;strip=1&amp;webp=1"}  alt='' width={400} height={400}/>
+              <Image src={""}  alt='' width={400} height={400}/>
           
             </div>
             <div className=' sm:w-full p-3 md:w-1/2  sm:h-[400px] md:p-[3rem] '> 

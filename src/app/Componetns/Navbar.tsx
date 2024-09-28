@@ -25,10 +25,11 @@ function Navbar() {
      <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
       <Link href="/" >
       <Image
-      src="https://netchex.com/wp-content/themes/netchex-tailwdind/images/logo.svg"
+      
+     src={'https://netchex.com/wp-content/themes/netchex-tailwdind/images/logo.svg'}
       alt="Landscape picture"
-      width={800}
-      height={500}
+      width={100}
+      height={100}
     />
     
      </Link>

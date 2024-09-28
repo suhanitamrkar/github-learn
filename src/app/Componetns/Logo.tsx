@@ -8,35 +8,35 @@ const Logo = () => {
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-2 gap-10 sm:gap-y-16 sm:grid-cols-3 xl:grid-cols-6">
             <div>
-            <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-1.png"}
+            <img src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-1.png"}
                 alt='' width={100} height={10}/>
                 
             </div>
 
             <div>
-                <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-2.png"}
+                <img src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-2.png"}
                 alt='' width={20} height={20} className="object-contain w-auto mx-auto h-14" />
                
             </div>
 
             <div>
-                <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
+                <img src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
                 alt='' width={20} height={20}/>
               
             </div>
 
             <div>
-            <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
+            <img src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
                 alt='' width={20} height={20}/>
             </div>
 
             <div>
-                <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
+                <img src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
                 alt='' width={20} height={20}/>
             </div>
 
             <div>
-            <Image src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
+            <img src={"https://cdn.rareblocks.xyz/collection/celebration/images/logos/1/logo-3.png"}
                 alt='' width={20} height={20}/>
             </div>
         </div>
