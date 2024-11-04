@@ -4,9 +4,9 @@ import Navbar from "./Componetns/Navbar";
 import Banner from "./Componetns/Banner";
 import Benefits from "./Componetns/Benefits";
 import Experience from "./Componetns/Experience";
-import MobileFeature from "./Componetns/MobileFeature";
+
 import Logo from "./Componetns/Logo";
-import AwardWinning from "./Componetns/AwardWinning";
+
 import Footer from "./Componetns/Footer";
 import Darkgreen from "./Componetns/Darkgreen";
 import Data from "./Componetns/Data";
@@ -30,7 +30,7 @@ export default function Home() {
 
 <Blog/>
 
-   <AwardWinning/>
+   
    
    
    </>

@@ -1,15 +1,15 @@
-import Link from 'next/link';
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
-const Banner = async () => {
-  let data = await fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=13475e7197ee41f7b1306c779397db89");
-  let news = await data.json();
-  let articles= news.articles
- 
-  console.log(news);
+const News = async () => {
+    let data = await fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=13475e7197ee41f7b1306c779397db89");
+    let news = await data.json();
+    let articles= news.articles
+   
+    console.log(news);
+  
   return (
-    <div>
- <div className="grid grid-cols-3">
+    <div className="grid grid-cols-3">
          {articles.map((post) => (
       <div className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
       <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
@@ -43,10 +43,7 @@ const Banner = async () => {
       ))}
       
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Banner
-
-
+export default News;

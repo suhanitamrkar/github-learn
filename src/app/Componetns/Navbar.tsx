@@ -20,8 +20,23 @@ function Navbar() {
 );
 
  return (
-  
-   <div className="flex bg-white text-sm font-semibold items-center justify-between flex-wrap p-6">
+  <>
+{/* <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
+  <div className="max-w-5xl mx-auto px-4">
+    <div className="flex items-center justify-between h-16">
+      <span className="text-2xl text-gray-900 font-semibold">Logo</span>
+      <div className="flex space-x-4 text-gray-900">
+        <a href="#">Dashboard</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav> */}
+
+
+   <div className="flex  items-center sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200  justify-between flex-wrap p-4">
      <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
       <Link href="/" >
       <Image
@@ -62,18 +77,18 @@ function Navbar() {
          <Link href="/service" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
            Service
          </Link>
-         <a href="/princing" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
-           Pricing
+         <a href="/product" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+           Product
          </a>
-         <Link href="/blogSpot" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+         <Link href="/blog" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
            Blog
          </Link>
-         <Link href="/blogList" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+         <Link href="/home" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
            Resource 
          </Link>
-         <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+         <Link href="/contact" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
             Contact
-         </a>
+         </Link>
          
        </div>
        <div>
@@ -88,6 +103,7 @@ function Navbar() {
        </div>
      </div>
    </div>
+   </>
  );
 }
 export default Navbar;
