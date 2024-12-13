@@ -89,6 +89,9 @@ function Navbar() {
          <Link href="/contact" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
             Contact
          </Link>
+         <Link href="/image" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+            Image
+         </Link>
          
        </div>
        <div>
